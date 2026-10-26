@@ -1,0 +1,5 @@
+check_name,observed_value,expected_value,status,note
+Orders primary key uniqueness,99441,99441,PASS,Each order should have one row in orders.
+Order items with no matching order,0,0,PASS,Investigate unmatched order IDs.
+Negative item prices,0,0,PASS,Review negative values before financial analysis.
+Order items with unknown sellers,0,0,PASS,Check seller reference integrity.
